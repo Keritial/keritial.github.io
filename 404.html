@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Keritial</title>
-<meta http-equiv="refresh" content="0; https://keritial.eu.org">
-</head>
-<body>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<title>Keritial</title>
+		<!--
+			This page is just to redirect you to my main website.
+			Because I can't actively renew too many domains.
+		-->
+		<script>
+			/* I suppose there's no browsers that don't support String.prototype.replace... */
+			location.href = location.href.replace(location.origin, "https://keritial.eu.org");
+		</script>
+		<noscript>
+			<meta http-equiv="refresh" content="0; https://keritial.eu.org" />
+		</noscript>
+	</head>
+	<body></body>
 </html>
